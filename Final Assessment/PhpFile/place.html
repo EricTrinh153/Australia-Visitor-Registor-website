@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome to Australia</title>
+	<script type="text/javascript" src="filejava/jquery-1.9.1.js"></script>
+	<link rel="stylesheet" type="text/css" href="aus.css">
+	<link rel="stylesheet" type="text/css" href="gallery.css">
+	<script type="text/javascript">
+	
+	$(function(){
+		$("#gallery li img").hover(function(){
+			$('#main-img').attr('src',$(this).attr('src').replace('thumb/',''));
+		});
+
+	});
+
+</script>
+</head>
+<body>
+
+<div id = "container">
+<header>
+<h1>
+<a href="index.html"><img src="images/australian-explorer-logo.png"></a>
+</h1>
+</header>
+<div id="box1">
+<ul id="mainnav">
+<li class="navi"><img src="images/photo.jpg" width="20" height="20" alt=""><a href="index.html">Home</a> 
+<li class="navi"><img src="images/photo.jpg" width="20" height="20" alt=""><a href="CustomerInformation.html">Customer Information</a> 
+<li class="navi"><img src="images/photo.jpg" width="20" height="20" alt=""><a href="place.html">Places</a> 
+<li class="navi"><img src="images/photo.jpg" width="20" height="20" alt=""><a href="location.html">Location</a>
+</div>
+
+ <div id="gallery">
+	<img src="images/img_1.jpg" width="500" height="300" alt="" id="main-img" />
+	<ul>
+	  <li><img src="images/thumb/img_1.jpg" width="100" class="photo"  height="60" />
+	 <li><img src="images/thumb/img_2.jpg" width="100" class="photo"  height="60"  />	  
+	 <li><img src="images/thumb/img_3.jpg"  width="100" class="photo"  height="60" />
+	 <li><img src="images/thumb/img_4.jpg"  width="100" class="photo"  height="60" />
+	  <li><img src="images/thumb/img_5.jpg" width="100" class="photo"  height="60" />
+	  </ul>
+	    </div>
+
+
+<footer>
+	please contact us!!!
+</footer>
+</div>
+</body>
+</html>

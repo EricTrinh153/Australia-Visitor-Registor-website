@@ -1,0 +1,4 @@
+DROP DATABASE IF EXIST TrungTrinh;
+CREATE DATABASE TrungTrinh;
+USE TrungTrinh;
+GRANT SELECT, INSERT, DELETE, UPDATE ON TrungTrinh .* TO ‘root’@‘localhost' IDENTIFIED BY ‘’;

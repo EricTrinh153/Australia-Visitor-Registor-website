@@ -1,0 +1,204 @@
+@font-face {
+font-family: 'CuprumFFURegular';
+src: url('fonts/Cuprum-webfont.eot');
+src: local('☺'), url('fonts/Cuprum-webfont.woff') format('woff'), url('fonts/Cuprum-webfont.ttf') format('truetype'), url('fonts/Cuprum-webfont.svg#webfontKLktnWy4') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+h1, h2, h3, nav, footer {
+font-family: CuprumFFURegular;
+}
+h1, h2, footer {
+text-align: center;
+
+}
+
+body {
+width: 60em;
+margin: 0 auto;
+font-family: tahoma;
+background:url("images/123 .jpg");
+
+}
+figure {
+display: block;
+float: right;
+margin: 0 0 0.5em 1em;
+text-align: center;
+position: relative;
+}
+figcaption a:link{
+  text-decoration: none;
+  color:blue;
+}
+footer {
+display: block;
+clear: both;
+font-size: 1.25em;
+margin-top: 1.5em;
+font-style: italic;
+background: #CC9966;
+border-bottom-right-radius: 1.2em;
+padding:2.5em auto 2.5em auto;
+
+}
+footer p {
+
+text-align: center;
+padding: 0.25em;
+
+}
+h1 {
+font-size: 2.25em;
+background: #CC9966;
+border-top-left-radius: 0.5em;
+}
+h2 {
+font-size: 1.75em;
+
+}
+
+img {
+
+margin:0 auto;
+border-radius: 1.2em;
+}
+.navi{
+  text-align: left;
+}
+
+nav {
+display: block;
+font-size: 1.25em;
+}
+nav ul {
+margin-left: 0;
+}
+
+#container{
+position: relative;
+padding: 0;
+margin: 1em auto;
+background: rgb(200,208,215);
+border-bottom-right-radius: 1.2em;
+border-top-left-radius: 1.2em;
+
+}
+#content {
+display: block;
+margin-left: 15em;
+
+}
+#content p {
+margin-top: 0.5em;
+margin-bottom: 0.5em;
+font-size:1.25em;
+background: #C2C45B;
+}
+#mainnav {
+
+padding: 0.25em;
+padding-left: 0.5em;
+width: 9em;
+position: absolute;
+left: 20px;
+}
+#mainnav li {
+list-style-type: none;
+padding: 0.25em 0.25em 0.25em 1em;
+margin: 0.25em 0;
+background: #00C0AD;
+position: relative;
+border-radius: 0.5em;
+
+
+
+}
+#mainnav ul {
+margin: 0;
+padding: 0;
+
+}
+
+
+#callout {
+  font-weight: bold;
+  }
+
+#mainnav a:link {
+  color:black;
+  text-decoration: none;
+  text-align:right;
+
+  }
+#mainnav a:visited {
+  color: #422100;
+  }
+#mainnav a:hover {
+  color: brown;
+  text-shadow:5px 5px 5px black;
+  }
+#mainnav a:active {
+  color: #422100;
+  }
+  fieldset{
+   
+  }
+ 
+
+  #submitbutton{
+    text-align: center;
+  }
+  #headtext{
+    float: right;
+    src:url('fonts/AtomicAge-Regular.ttf');
+    padding-bottom: 3.5em;
+  }
+  ul{list-style:none;}
+.text-center {text-align: center; padding: 10px 0;}
+
+
+
+#box2{
+  position: relative;
+  left:10em;
+}
+#box3{
+  border :0.2em solid black;
+  width:em;
+  position: relative;
+
+  left:20em;
+  top:1em;
+  
+  background: #B8944D;
+  width: 30em;
+}
+  
+
+#subnav{
+  text-align: center;
+
+}
+#subnav a:link{
+  margin-right:0.5em;
+  background: #00C0AD;
+  text-shadow: 0.2em;
+}
+#subnav img{
+  background: #00C0AD;
+  border-radius: 1.2em;
+
+
+}
+#video{
+  position: absolute;
+  left:3em;
+}
+#element1{
+  position: relative;
+  left:26em;
+}
+.dot{
+  color: red;
+}

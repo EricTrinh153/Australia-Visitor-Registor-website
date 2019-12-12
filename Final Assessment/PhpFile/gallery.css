@@ -1,0 +1,9 @@
+body
+	{height:100%;padding:7px 0;}
+ul{list-style:none;}
+.text-center {text-align: center; padding: 10px 0;}
+
+#gallery {width: 660px; margin: 0 auto;}
+#gallery ul {padding-left: 10px;}
+#gallery li {display: inline; margin-right: 3px;}
+#gallery #main-img {background: url(bg_img.png) no-repeat 0 0; padding: 26px;}

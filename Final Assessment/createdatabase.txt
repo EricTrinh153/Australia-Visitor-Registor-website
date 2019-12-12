@@ -1,0 +1,4 @@
+DROP database IF EXIST Your_Name;
+CREATE DATABASE Your_Name;
+USE Your_Name;
+GRANT SELECT, INSERT, DELETE, UPDATE ON Your_Name .* TO 'root'@'localhost' IDENTIFIED BY '';
